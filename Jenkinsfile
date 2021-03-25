@@ -12,7 +12,7 @@ node {
           sh "mvn package"
           }
         }finally{
-        junit 'target/**/.xml'
+        junit 'target/**/*.xml'
         }
         echo "hello"
       }
